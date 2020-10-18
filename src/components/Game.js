@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import Knight from './Knight';
-import Squares from './Square';
 import Board from './Board';
-import knight from '../img/knight.png'
+import knight from '../img/knight.png';
 
 class ChessBoard extends Component {
 	constructor() {
 		super();
 		this.state = {
-			knightPosition: [3, 2],
+			knightPosition: [5, 4],
 			squareProps: [
 				[
 					{
@@ -300,37 +299,30 @@ class ChessBoard extends Component {
 			[r + 2, c - 1],
 			[r + 2, c + 1],
 		]; //newSquares works!
-		console.log('newSquares::');
-		console.log(newSquares);
 
-		this.setState(state => {
-			const list = state.squareProps.map((arr, row) =>
+		this.setState(prevState => {
+			const squareProps = prevState.squareProps.map((arr, row) =>
 				arr.map((item, col) => {
-                    console.log([row, col]);
+					console.log([row, col]);
 					if (
-						(Math.abs(currSquare[0] - row) == 1 &&
-						Math.abs(currSquare[1] - col) == 2) ||
-						(Math.abs(currSquare[0] - row) == 2 &&      // almost correct squares (index wrong) but not updating state
-						Math.abs(currSquare[1] - col) == 1)         //knight position also not updating
+						(Math.abs(currSquare[0] - (row + 1)) == 1 &&
+							Math.abs(currSquare[1] - (col + 1)) == 2) ||
+						(Math.abs(currSquare[0] - (row + 1)) == 2 && // almost correct squares (index wrong) but not updating state
+							Math.abs(currSquare[1] - (col + 1)) == 1) //knight position also not updating
 					) {
-						var x = {
+						return {
 							...item,
 							highlighted: true,
 						};
-						console.log('expected value IF::');
-						console.log(x);
-						return x;
 					} else {
-						var y = {
+						return {
 							...item,
 						};
-						console.log('expected value ELSE::');
-						console.log(y);
-						return y;
 					}
 				})
 			); //debug this!
-			return list;
+			console.log(squareProps);
+			return { squareProps: squareProps };
 		});
 		console.log('CLICKED!!!');
 	};
@@ -339,7 +331,7 @@ class ChessBoard extends Component {
 		return (
 			<Board squareProps={this.state.squareProps}>
 				<Knight
-                    src={knight}
+					src={knight}
 					position={this.state.knightPosition}
 					onClick={() => this.highlightSquares(this.state.knightPosition)}
 				/>

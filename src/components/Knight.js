@@ -12,8 +12,8 @@ import knight from '../img/knight.png';
 //     )
 // }
 const Knight = styled.img`
-    grid-column: ${props => props.position[0]} / ${props => props.position[0] + 1};
-    grid-row: ${props => props.position[1]} / ${props => props.position[1] + 1};
+    grid-column: ${props => props.position[1]} / ${props => props.position[1] + 1};
+    grid-row: ${props => props.position[0]} / ${props => props.position[0] + 1};
     height: 1.9em;
     justify-self: center;
     position: absolute; 
