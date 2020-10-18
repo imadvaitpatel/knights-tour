@@ -15,41 +15,49 @@ class ChessBoard extends Component {
 						color: 'white',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'black',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'white',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'black',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'white',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'black',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'white',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'black',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 				],
 				[
@@ -57,41 +65,49 @@ class ChessBoard extends Component {
 						color: 'black',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'white',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'black',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'white',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'black',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'white',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'black',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'white',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 				],
 				[
@@ -99,41 +115,49 @@ class ChessBoard extends Component {
 						color: 'white',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'black',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'white',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'black',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'white',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'black',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'white',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'black',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 				],
 				[
@@ -141,41 +165,49 @@ class ChessBoard extends Component {
 						color: 'black',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'white',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'black',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'white',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'black',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'white',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'black',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'white',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 				],
 				[
@@ -183,41 +215,49 @@ class ChessBoard extends Component {
 						color: 'white',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'black',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'white',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'black',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'white',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'black',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'white',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'black',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 				],
 				[
@@ -225,41 +265,49 @@ class ChessBoard extends Component {
 						color: 'black',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'white',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'black',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'white',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'black',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'white',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'black',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'white',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 				],
 				[
@@ -267,41 +315,49 @@ class ChessBoard extends Component {
 						color: 'white',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'black',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'white',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'black',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'white',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'black',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'white',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'black',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 				],
 				[
@@ -309,41 +365,49 @@ class ChessBoard extends Component {
 						color: 'black',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'white',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'black',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'white',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'black',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'white',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'black',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 					{
 						color: 'white',
 						highlighted: false,
 						clickHandler: this.moveKnight,
+						banned: false,
 					},
 				],
 			],
@@ -355,10 +419,11 @@ class ChessBoard extends Component {
 			const squareProps = prevState.squareProps.map((arr, row) =>
 				arr.map((item, col) => {
 					if (
-						(Math.abs(currSquare[0] - (row + 1)) == 1 &&
+						!item.banned &&
+						((Math.abs(currSquare[0] - (row + 1)) == 1 &&
 							Math.abs(currSquare[1] - (col + 1)) == 2) ||
-						(Math.abs(currSquare[0] - (row + 1)) == 2 && // almost correct squares (index wrong) but not updating state
-							Math.abs(currSquare[1] - (col + 1)) == 1) //knight position also not updating
+							(Math.abs(currSquare[0] - (row + 1)) == 2 && // almost correct squares (index wrong) but not updating state
+								Math.abs(currSquare[1] - (col + 1)) == 1)) //knight position also not updating
 					) {
 						return {
 							...item,
@@ -380,14 +445,18 @@ class ChessBoard extends Component {
 		this.setState(prevState => {
 			const squareProps = prevState.squareProps.map((arr, row) =>
 				arr.map((item, col) => {
-                    console.log([row, col]);
-                    console.log(prevState.knightPosition);
-					if (row+1 == prevState.knightPosition[0] && col+1 == prevState.knightPosition[1]) {
+					console.log([row, col]);
+					console.log(prevState.knightPosition);
+					if (
+						row + 1 == prevState.knightPosition[0] &&
+						col + 1 == prevState.knightPosition[1]
+					) {
 						console.log('LAST KNIGHT POSITION');
 						return {
 							...item,
 							color: 'green',
 							highlighted: false,
+							banned: true,
 						};
 					} else if (item.highlighted) {
 						console.log('NEED TO STOP HIGHLIGHTING');
@@ -395,12 +464,11 @@ class ChessBoard extends Component {
 							...item,
 							highlighted: false,
 						};
-                    }
-                    else {
-                        return {
-                            ...item,
-                        }
-                    }
+					} else {
+						return {
+							...item,
+						};
+					}
 				})
 			);
 			console.log(squareProps);
