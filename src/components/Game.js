@@ -380,12 +380,13 @@ class ChessBoard extends Component {
 		this.setState(prevState => {
 			const squareProps = prevState.squareProps.map((arr, row) =>
 				arr.map((item, col) => {
-					console.log([row, col]);
-					if ([row + 1, col + 1] == prevState.knightPosition) {
+                    console.log([row, col]);
+                    console.log(prevState.knightPosition);
+					if (row+1 == prevState.knightPosition[0] && col+1 == prevState.knightPosition[1]) {
 						console.log('LAST KNIGHT POSITION');
 						return {
 							...item,
-							color: 'red',
+							color: 'green',
 							highlighted: false,
 						};
 					} else if (item.highlighted) {
