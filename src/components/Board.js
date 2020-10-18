@@ -2,9 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 
 export const Board = ({ squareProps, children }) => {
-	const squares = squareProps.map(arr =>
-		arr.map(item => {
-			return <Square {...item} />;
+	const squares = squareProps.map((arr, row) =>
+		arr.map((item, col) => {
+			return <Square {...item} onClick={() => item.highlighted ? item.clickHandler([row,col]) : undefined}  />; 
 		})
 	);
 	return (

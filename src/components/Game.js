@@ -14,272 +14,336 @@ class ChessBoard extends Component {
 					{
 						color: 'white',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'black',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'white',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'black',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'white',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'black',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'white',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'black',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 				],
 				[
 					{
 						color: 'black',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'white',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'black',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'white',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'black',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'white',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'black',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'white',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 				],
 				[
 					{
 						color: 'white',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'black',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'white',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'black',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'white',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'black',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'white',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'black',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 				],
 				[
 					{
 						color: 'black',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'white',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'black',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'white',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'black',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'white',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'black',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'white',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 				],
 				[
 					{
 						color: 'white',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'black',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'white',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'black',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'white',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'black',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'white',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'black',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 				],
 				[
 					{
 						color: 'black',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'white',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'black',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'white',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'black',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'white',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'black',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'white',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 				],
 				[
 					{
 						color: 'white',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'black',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'white',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'black',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'white',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'black',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'white',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'black',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 				],
 				[
 					{
 						color: 'black',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'white',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'black',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'white',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'black',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'white',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'black',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 					{
 						color: 'white',
 						highlighted: false,
+						clickHandler: this.moveKnight,
 					},
 				],
 			],
@@ -287,23 +351,9 @@ class ChessBoard extends Component {
 	}
 
 	highlightSquares = currSquare => {
-		var r = currSquare[0]; // row and column
-		var c = currSquare[1];
-		const newSquares = [
-			[r - 2, c - 1],
-			[r - 2, c + 1],
-			[r - 1, c - 2],
-			[r - 1, c + 2], //squares knight can move to
-			[r + 1, c - 2],
-			[r + 1, c + 2],
-			[r + 2, c - 1],
-			[r + 2, c + 1],
-		]; //newSquares works!
-
 		this.setState(prevState => {
 			const squareProps = prevState.squareProps.map((arr, row) =>
 				arr.map((item, col) => {
-					console.log([row, col]);
 					if (
 						(Math.abs(currSquare[0] - (row + 1)) == 1 &&
 							Math.abs(currSquare[1] - (col + 1)) == 2) ||
@@ -320,11 +370,45 @@ class ChessBoard extends Component {
 						};
 					}
 				})
-			); //debug this!
-			console.log(squareProps);
+			);
 			return { squareProps: squareProps };
 		});
 		console.log('CLICKED!!!');
+	};
+
+	moveKnight = newSquare => {
+		this.setState(prevState => {
+			const squareProps = prevState.squareProps.map((arr, row) =>
+				arr.map((item, col) => {
+					console.log([row, col]);
+					if ([row + 1, col + 1] == prevState.knightPosition) {
+						console.log('LAST KNIGHT POSITION');
+						return {
+							...item,
+							color: 'red',
+							highlighted: false,
+						};
+					} else if (item.highlighted) {
+						console.log('NEED TO STOP HIGHLIGHTING');
+						return {
+							...item,
+							highlighted: false,
+						};
+                    }
+                    else {
+                        return {
+                            ...item,
+                        }
+                    }
+				})
+			);
+			console.log(squareProps);
+			return {
+				knightPosition: [newSquare[0] + 1, newSquare[1] + 1],
+				squareProps: squareProps,
+			};
+		});
+		console.log('CLICKED SQUARE!!!');
 	};
 
 	render() {
